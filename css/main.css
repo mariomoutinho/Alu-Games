@@ -1,9 +1,6 @@
 @import url("./_reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@600;700&display=swap');
-.dashboard__item__button {
-  text-decoration: none;
-  color: #FFFFFF;
-}
+
 .body {
     color: #FFFFFF;
 
@@ -117,16 +114,15 @@
 .dashboard__item__button {
     display: flex;
     justify-content: center;
-
     font-weight: 700;
     font-size: 1.5rem;
-
     padding: 1rem 1.5rem;
     min-width: 13rem;
-
     border-radius: 1rem;
-
     background-color: #1875E8;
+    text-decoration: none;
+    color: #FFFFFF;
+  
 }
 
 .dashboard__item__button--return {
